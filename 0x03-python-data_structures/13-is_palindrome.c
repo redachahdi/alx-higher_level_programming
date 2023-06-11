@@ -10,8 +10,7 @@
 int is_palindrome(listint_t **head)
 {
 	const listint_t *cur;
-	int len_gh;
-	int a, b;
+	int len_gh, a, b;
 	int array[10000];
 
 	if (*head == NULL)
